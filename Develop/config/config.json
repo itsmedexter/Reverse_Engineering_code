@@ -1,0 +1,25 @@
+// Before the server continues to cater to you, it will need certain credentials to make sure that its true before continuing.
+
+// These are key identifiers or key value pair
+
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "exampledb",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
