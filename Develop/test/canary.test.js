@@ -1,3 +1,5 @@
+// This test your code's integrity before production phase
+
 var expect = require("chai").expect;
 
 // this test's a function in development phase

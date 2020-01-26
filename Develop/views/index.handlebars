@@ -1,34 +1,35 @@
 {{!-- index html code to be injected into main.handlebars when envoked --}}
-<div id="home">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 offset-2">
-        <h1>{{msg}}</h1>
-        <h2>This is our Home Page!</h2>
-        <form class="clearfix mb-4" action="POST">
+<div id="home">{{!-- home div --}}
+  <div class="container">{{!-- Container div --}}
+    <div class="row">{{!-- row div for bootstrap --}}
+      <div class="col-8 offset-2">{{!-- bootstrap div that takes 8 colms of 12 and starts 2 columns over --}}
+        <h1>{{msg}}</h1>{{!-- handlebars injection of input --}}
+        <h2>This is our Home Page!</h2>{{!-- header --}}
+        <form class="clearfix mb-4" action="POST">{{!-- start of form, class id clearsfix clears floats for this form, margin spacing -4, action is   --}}
+          <div class="form-group"> {{!-- bootstrap form class --}}
+            <label for="example-text">Example Text</label>{{!-- label for input --}}
+            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text"> 
+          </div>{{!-- input box that takes text that has an id of "example-text", class "form-control", aria for user interface, placeholder text tells user what to do --}}
           <div class="form-group">
-            <label for="example-text">Example Text</label>
-            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text">
+            <label for="example-description">Example Description</label>{{!-- label for next input --}}
+            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>{{!-- input box that takes text that has an id of "example-description", class "form-control", aria for user interface, placeholder text tells user what to do --}}
           </div>
-          <div class="form-group">
-            <label for="example-description">Example Description</label>
-            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>
-          </div>
-          <button id="submit" class="btn btn-primary float-right">Submit</button>
-        </form>
-        <h3>Examples:</h3>
-        <ul id="example-list" class="list-group">
-          {{#each examples}}
-          <li data-id="{{this.id}}" class="list-group-item">
-            <a href="example/{{this.id}}">{{this.text}}</a>
-            <button class="btn btn-danger float-right delete">ｘ</button>
-          </li>
-          {{/each}}
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+          <button id="submit" class="btn btn-primary float-right">Submit</button>{{!-- button that has an id "submit" that has a bootstrap class --}}
+        </form>{{!-- end of form --}}
+        <h3>Examples:</h3>{{!-- header 2  --}}
+        <ul id="example-list" class="list-group">{{!-- start of unordered list with id "example-list", class "list-group" --}}
+          {{#each examples}}{{!-- handlebars injection of input --}}
+          <li data-id="{{this.id}}" class="list-group-item">{{!-- handlebars injection of input --}}
+            <a href="example/{{this.id}}">{{this.text}}</a>{{!-- handlebars injection of input --}}
+            <button class="btn btn-danger float-right delete">ｘ</button>{{!-- button with bootstrap class --}}
+          </li>{{!-- end of list items --}}
+          {{/each}}{{!-- handlebars injection of input --}}
+        </ul>{{!-- end of unordered list --}}
+      </div>{{!-- end of bootstrap div that is 8 columns wide, 2 columns over --}}
+    </div>{{!-- end of row div --}}
+  </div>{{!-- end of container div --}}
+</div>{{!-- End of home div --}}
+
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
+<script src="/js/index.js"></script>{{!-- type and location of script files, 1: jquery, 2: local js file --}}

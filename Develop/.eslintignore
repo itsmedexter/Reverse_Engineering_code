@@ -1,2 +1,4 @@
+Ignores these files to be analyzed
+
 models/index.js
 node_modules
