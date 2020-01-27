@@ -1,4 +1,4 @@
-// meta data that describes the project the modules it needs to run
+// meta data that describes the project, list the modules with version, which modules it needs to run
 
 {
   "name": "node-handlebars-boilerplate",

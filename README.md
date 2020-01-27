@@ -1,36 +1,35 @@
-# Unit 14 Sequelize Homework: Reverse Engineering Code
+# Unit 14: Reverse Engineering Code
 
-Reverse engineer the starter code provided and create a tutorial for the code.
+![Sample](reverse_engineering.gif)
 
-In the `Develop` folder, there is starter code for a project. Begin inspecting the code to get an understanding of each file's responsibility. Then, in a Google Doc, write a tutorial explaining *every* file and its purpose. If one file is dependant on other files, be sure to let the user know.
+In Reverse Engineering code, I go through each file line by line and explain what it does. After the walk-through of the code, I add instructions on how to add changes to this project in the google doc. 
 
-At the end of the tutorial, add instructions for how you could now add changes to this project.
+## How it was done. 
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+I opened each file, to the best of my knowledge, tried to explain what was going on with the code. If I didn't know, I would do a search on google to understand what was going on, then add my explanation.
 
-```
-AS A developer
+### Prerequisites
 
-I WANT a walk-through of the codebase
+From repository, (https://github.com/itsmedexter/unit14_reverse_engineering_code), you can download the Develop folder and open each  file to see explanations of what the code is doing. Also read my google doc, (https://docs.google.com/document/d/1mFbsygaePZ8ggA9p8zo_XlWKjYoC-soyhhLiEHYEqxA/edit?usp=sharing), on what I think the code is doing and how to add to it. 
 
-SO THAT I can use it as a starting point for a new project
-```
 
-## Business Context
+## Deployed Link
 
-When joining a new team, you will be expected to inspect a lot of code that you have never seen before. Rather than having a team member explain every line for you, you will dissect the code by yourself, saving any questions for a member of your team.
+* No direct link, please see "Prerequisites" on how to view.
 
-## Minimum Requirements
 
-* A link to a document or video with instructions on how what each section of code is doing in `Develop/`.
+## Author
+Dexter Valencia 
 
-- - -
+- [Link to Reverse Engineering the code repository](https://github.com/itsmedexter/unit14_reverse_engineering_code)
+- [Link to Github](https://github.com/itsmedexter)
+- [Link to LinkedIn](https://www.linkedin.com/in/dextervalencia/)
 
-## Submission on BCS
+## License
 
-You are required to submit the following:
+This project is licensed under the MIT License 
 
-* A link to a Google Doc, video, or equivalent that describes the code in `Develop/`. 
+## Acknowledgments
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+* Thanks to everyone who helped me understand the code!  
+

@@ -1,21 +1,21 @@
 {{!-- example html ready for insert to main.handlebars when envoked   --}}
 
-<div class="container">
-  <div class="row">
-    <div class="col-8 offset-2">
-      <div class="card mt-4">
-        <div class="card-body">
-          <h5 class="card-title">Example</h5>
+<div class="container">{{!-- main placeholder for items below  --}}
+  <div class="row">{{!-- needed for bootstrap grid system  --}}
+    <div class="col-8 offset-2">{{!-- bootstrap grid system changes to 8 column out of 12, starts 2 grid over --}}
+      <div class="card mt-4">{{!-- bootstrap grid system changes to 8 column out of 12, starts 2 grid over --}}
+        <div class="card-body">{{!-- bootstrap content container --}}
+          <h5 class="card-title">Example</h5>{{!-- main header --}}
           <p>
-            <strong>ID</strong>: {{example.id}}</p>
+            <strong>ID</strong>: {{example.id}}</p>{{!-- handlebars place holder where something can be injected into ID --}}
           <p>
           <p>
-            <strong>Text</strong>: {{example.text}}</p>
+            <strong>Text</strong>: {{example.text}}</p>{{!-- handlebars place holder where something can be injected into text --}}
           <p>
-            <strong>Description:</strong> {{example.description}}</p>
-            <a href="/">← Back To Home</a>
+            <strong>Description:</strong> {{example.description}}</p>{{!-- handlebars place holder where something can be injected into for description --}}
+            <a href="/">← Back To Home</a>{{!-- sends you back to index page --}}
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+      </div>{{!-- end of bootstrap content container --}}
+    </div>{{!-- end of bootstrap 8 column grid--}}
+  </div>{{!-- end of bootstrap grid system  --}}
+</div>{{!-- end of main placeholder --}}

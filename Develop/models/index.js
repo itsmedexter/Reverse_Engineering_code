@@ -1,7 +1,7 @@
+// you can not use undeclared variables
 "use strict";
 
 // These are modules needed to work with file system
-
 // use to read files on your computer
 var fs = require("fs");
 
