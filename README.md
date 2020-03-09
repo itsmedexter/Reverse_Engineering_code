@@ -1,4 +1,4 @@
-# Unit 14: Reverse Engineering Code
+# Reverse Engineering Code
 
 ![Sample](reverse_engineering.gif)
 
@@ -10,7 +10,7 @@ I opened each file, to the best of my knowledge, tried to explain what was going
 
 ### Prerequisites
 
-From repository, (https://github.com/itsmedexter/unit14_reverse_engineering_code), you can download the Develop folder and open each  file to see explanations of what the code is doing. Also read my google doc, (https://docs.google.com/document/d/1mFbsygaePZ8ggA9p8zo_XlWKjYoC-soyhhLiEHYEqxA/edit?usp=sharing), on what I think the code is doing and how to add to it. 
+From repository, (https://github.com/itsmedexter/Reverse_Engineering_code), you can download the Develop folder and open each  file to see explanations of what the code is doing. Also read my google doc, (https://docs.google.com/document/d/1mFbsygaePZ8ggA9p8zo_XlWKjYoC-soyhhLiEHYEqxA/edit?usp=sharing), on what I think the code is doing and how to add to it. 
 
 
 ## Deployed Link
@@ -21,7 +21,7 @@ From repository, (https://github.com/itsmedexter/unit14_reverse_engineering_code
 ## Author
 Dexter Valencia 
 
-- [Link to Reverse Engineering the code repository](https://github.com/itsmedexter/unit14_reverse_engineering_code)
+- [Link to Reverse Engineering the code repository](https://github.com/itsmedexter/Reverse_Engineering_code)
 - [Link to Github](https://github.com/itsmedexter)
 - [Link to LinkedIn](https://www.linkedin.com/in/dextervalencia/)
 
